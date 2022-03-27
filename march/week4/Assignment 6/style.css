@@ -1,0 +1,16 @@
+body{
+    background-color: blueviolet;
+}
+.my-form{
+    border: 2px solid #000000;
+    padding: 30px;
+    height: 520px;
+    width: 250px;
+    margin: auto;
+    background-color: aqua;
+    
+}
+.my-div{
+    padding: 10px;
+
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>valid form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form class="my-form">
+        <div class="form-div">
+        <div class="my-div">
+            <label for="inputFname" class="form-label">First Name</label><br>
+            <input type="text" placeholder="First Name" id="inputFname" required>
+          </div>
+          <div class="my-div">
+            <label for="inputLname" class="form-label">Last Name</label><br>
+            <input type="text" placeholder="Last Name" class="form-control" id="inputLname">
+          </div>
+        <div class="my-div">
+          <label for="inputEmail" class="form-label">Email</label><br>
+          <input type="email" placeholder="Email" class="form-control" id="inputEmail" required>
+        </div>
+        <div class="my-div">
+          <label for="inputPassword" class="form-label">Password</label><br>
+          <input type="password" placeholder="Password" id="inputPassword" minlength="8" required>
+        </div>
+        <div class="my-div">
+            <label for="inputMnumber" class="form-label">Mobile Number</label><br>
+            <input type="text" placeholder="Mobile Number" pattern="^[6789][0-9]{9}$" class="form-control" id="inputMnumber" required>
+        </div>
+        <div class="my-div">
+          Which language you know <br>
+        <input type="checkbox" value="Python" id="course1" checked  name="course1">
+        <label for="course1">Python</label>
+        <br>
+
+        <input type="checkbox" value="Java" id="course2" name="course2">
+        <label for="course2">Java</label>
+        <br>
+
+        <input type="checkbox" value="HTML, CSS, JS" id="course3"  name="course3">
+        <label for="course3">HTML, CSS, JS</label>
+        <br>
+      </div>
+        <div class="my-div">
+          <label for="inputCity" class="form-label">City</label><br>
+          <input type="text" placeholder="City" class="form-control" id="inputCity">
+        </div>
+    
+        
+        <div class="my-div">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="my-div">
+          <button type="submit" class="btn btn-primary">Create account</button>
+        </div>
+    </div>
+      </form>
+
+</body>
+</html>
