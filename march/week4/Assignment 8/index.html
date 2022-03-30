@@ -1,132 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+  <nav class="navbar">
+
+    <ul>
+      <li class="nav-img">hh</li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Courses</a>
+        <ul>
+          <li><a href="#">Full Stack Web Development</a></li>
+          <li><a href="#">Advance Web Development</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Hire Geeksters</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <button class="nav-btn btn">Apply Now</button>
+    </ul>
+
+
+  </nav>
+
+
+
+  <div class="main-div">
+    <h2>
+      <span class="heading-span">Application</span>
+      <span>Form</span>
+    </h2>
+
+    <form class="my-form">
+      <div>
+        <div class="form-group">
+          <label for="inputName">Enter Full Name*</label><br>
+          <input type="text" class="form-control" id="inputName" placeholder="Enter Full Name">
         </div>
-      </nav>
+        <div class="form-group">
+          <label for="inputEmail4">Email*</label><br>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="inputCource">Select Course*
+          </label><br>
+          <select id="inputCource" class="form-control">
+            <option selected value disabled hidden> Select Course
+            </option>
+            <option value="">Full Stack Web Development</option>
+            <option value="">Advance Web Development</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="inputMnumber" class="form-label">Mobile Number</label><br>
+          <input type="text" placeholder="Mobile Number" pattern="^[6789][0-9]{9}$" class="form-control"
+            id="inputMnumber" required>
+        </div>
+        <div class="form-group">
+          <label for="inputCource">Highest Degree*
+
+          </label><br>
+          <select id="inputCource" class="form-control">
+            <option selected value disabled hidden> Select highest degree
+
+            </option>
+            <option value="">B.E or B.Tech CS/IT</option>
+            <option value="">B.E or B.Tech other</option>
+            <option value="">M.S or M.Tech CS/IT</option>
+            <option value="">M.S or M.Tech other</option>
+            <option value="">MCA</option>
+            <option value="">BCA</option>
+            <option value="">other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="inputCource">Year of Completion*
+
+          </label><br>
+          <select id="inputCource" class="form-control">
+            <option selected value disabled hidden> Select Year of Completion
+
+            </option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="inputCource">Programming Skills*
+          </label><br>
+          <select id="inputCource" class="form-control">
+            <option selected value disabled hidden> Select Programming Skills Level
+            </option>
+            <option value="">Non coding skills</option>
+            <option value="">Basic coding skills</option>
+            <option value="">Intermediate coding skills</option>
+            <option value="">Good coding skills</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
 
 
-    <div class="main-div">
-        <h2>
-            <span class="heading-span">Application</span>
-            <span>Form</span>
-        </h2>
-
-        <form>
-            <div>
-                <div class="form-group">
-                    <label for="inputName">Enter Full Name*</label>
-                    <input type="text" class="form-control" id="inputName" placeholder="Enter Full Name">
-                  </div>
-              <div class="form-group">
-                <label for="inputEmail4">Email*</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <label for="inputCource">Select Course*
-                </label>
-                <select id="inputCource"  class="form-control">
-                  <option selected value disabled hidden> Select Course
-                </option>
-                  <option>Full Stack Web Development</option>
-                  <option>Advance Web Development</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="inputMnumber" class="form-label">Mobile Number</label>
-                <input type="text" placeholder="Mobile Number" pattern="^[6789][0-9]{9}$" class="form-control" id="inputMnumber" required>
-            </div>
-            <div class="form-group">
-                <label for="inputCource">Highest Degree*
-
-                </label>
-                <select id="inputCource"  class="form-control">
-                  <option selected value disabled hidden> Select highest degree
-
-                </option>
-                  <option>Full Stack Web Development</option>
-                  <option>Advance Web Development</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="inputCource">Year of Completion*
-
-                </label>
-                <select id="inputCource"  class="form-control">
-                  <option selected value disabled hidden> Select Year of Completion
-
-                </option>
-                  <option value="2018">2018</option>
-                  <option value="2019">2019</option>
-                  <option value="2020">2020</option>
-                  <option value="2021">2021</option>
-                  <option value="2022">2022</option>
-                  <option value="2023">2023</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="inputCource">Programming Skills*
-                </label>
-                <select id="inputCource"  class="form-control">
-                  <option selected value disabled hidden> Select Programming Skills Level
-                </option>
-                  <option>Full Stack Web Development</option>
-                  <option>Advance Web Development</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                    By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*
-                </label>
-              </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
-          </form>
-
-
-    </div>
+  </div>
 </body>
+
 </html>

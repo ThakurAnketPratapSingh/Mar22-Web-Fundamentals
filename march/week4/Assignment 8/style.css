@@ -1,5 +1,10 @@
 .main-div{
    
+  width: 100%;
+}
+.nav-btn{
+    float: right;
+    margin-right: 20px;
 }
 .heading-span{
     color: green;
@@ -7,3 +12,53 @@
 h2{
     text-align: center;
 }
+nav{
+    background-color:aliceblue;
+    padding: 10px;
+
+
+    
+}
+
+li{
+    display: inline;
+    padding: 15px;
+}
+.nav-img{
+    padding-right: 100px;
+    padding-left: 2px;
+}
+
+li > ul{
+    display: none;
+}
+li:hover ul{
+    display: block;
+    position: absolute;
+}
+a :hover{
+    color: orangered;
+}
+.btn{
+    padding: 8px 20px 8px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;   
+}
+.my-form{
+    
+    padding: 30px;
+    height: 520px;
+    width: 250px;
+    margin: auto;
+    background-color:;
+    
+}
+.form-group{
+    padding: 10px;
+}
+
+
+
+
+
