@@ -1,0 +1,19 @@
+
+li{
+    display:inline;
+    padding:10px;
+}
+a:hover{
+    color:red;
+}
+li > ul{
+    display:none;
+}
+li:hover ul {
+    display: block;
+    position: absolute;
+}
+nav{
+    background-color: aqua;
+    padding: 10px;
+}
