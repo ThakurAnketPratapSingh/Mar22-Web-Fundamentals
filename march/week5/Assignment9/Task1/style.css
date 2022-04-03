@@ -1,0 +1,32 @@
+.container{
+    width: 700px;
+    height: 500px;
+    background-color: aqua;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(2, 1fr);
+    gap: 10;
+    
+    
+}
+.items{
+    border: 3px solid sandybrown;
+    padding: 15px;
+    margin: 5px;
+    color: white;
+    background-color:grey;
+}
+.div-a{
+    grid-column: 1/span 2;
+}
+.div-b{
+    grid-column: 3/ span 1;
+    grid-row: 1/ span 2;
+}
+.div-c{
+    grid-column: 1/span 1;
+}
+.div-d{
+    grid-column: 2/span 1;
+}
