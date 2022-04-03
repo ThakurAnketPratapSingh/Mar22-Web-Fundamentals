@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sec">
+      <h2><span id="be">Be</span>hold</h2>
+    </div>
+      <form action="" class="form-div">
+        <div class="my-div heading">
+          <h2>Create an account</h2>
+        </div>
+        <div class="my-div pera">
+           <p>Already have an account? <a href="#">Sign in</a></p>
+        </div>
+        <div class="my-div email">
+          <label for="inputEmail" class="form-label">Email address</label><br>
+          <input type="email" id="inputEmail" required>
+        </div>
+        <div class="my-div first-name">
+            <label for="inputFname" class="form-label">First Name</label><br>
+            <input type="text"  id="inputFname" required>
+          </div>
+          <div class="my-div last-name">
+            <label for="inputLname" class="form-label">Last Name</label><br>
+            <input type="text"  id="inputLname" required>
+          </div>
+          <div class="my-div password">
+            <label for="inputPassword" class="form-label">Password</label><br>
+            <input type="password"  id="inputPassword" minlength="8" required>
+          </div>
+          <div class="my-div date">
+            <label for="inputDate" class="form-label">Date of Birth</label><br>
+            <input type="date" min="1950-12-31" id="inputDate" required>
+          </div>
+          <div class="my-div checkbox-div">
+            
+              <input class="form-check-input" type="checkbox" id="gridCheck" required>
+              <label class="form-check-label" for="gridCheck">
+                By clicking Create account. I agree that I have read and accept the <span>Terms of Use</span> and <span>Privacy Policy</span>
+              </label>
+           
+          </div>
+          <div class="my-div btn-div">
+            <button type="submit" class="btn">Create Account</button>
+          </div>
+      </form>
+  </div>  
+</body>
+</html>

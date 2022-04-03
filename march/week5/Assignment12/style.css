@@ -1,25 +1,17 @@
-.main-div{
-   
-  width: 100%;
+body{
+    
+    height: 300vh;
+}
+nav{
+    background-color:aquamarine;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
 }
 .nav-btn{
     float: right;
     margin-right: 20px;
 }
-.heading-span{
-    color: green;
-}
-h2{
-    text-align: center;
-}
-nav{
-    background-color:aliceblue;
-    padding: 10px;
-
-
-    
-}
-
 li{
     display: inline;
     padding: 15px;
@@ -41,25 +33,7 @@ a :hover{
 }
 .btn{
     padding: 8px 20px 8px 20px;
-    background-color: green;
+    background-color:blue;
     color: white;
     border-radius: 8px;   
 }
-.my-form{
-    
-    padding: 30px;
-    height: 520px;
-    width: 250px;
-    margin: auto;
-    background-color:;
-    
-}
-.form-group{
-    padding: 10px;
-}
-
-
-
-
-
-
