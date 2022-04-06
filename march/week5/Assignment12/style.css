@@ -37,3 +37,53 @@ a :hover{
     color: white;
     border-radius: 8px;   
 }
+.chat{
+    width: 25%;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid rgb(233, 106, 106);
+    border-radius: 1px;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    background-color:rgb(159, 8, 63);
+    color: rgb(2, 2, 2);
+}
+input{
+    width: 320px;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(255, 0, 162);
+    font-size: larger;
+}
+
+.main{
+    background-color:tomato;
+    text-align: center;
+    color: white;
+
+}
+th{
+    background-color: rgb(231, 6, 81);
+    height: 50px;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+th:hover{
+    color: rgb(227, 59, 59);
+    background-color: rgb(27, 27, 194);
+    font-size: larger;
+    font-weight: bold;
+    cursor:grab;
+}
